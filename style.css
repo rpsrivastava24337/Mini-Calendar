@@ -40,7 +40,8 @@ html {
    justify-content: center;
    align-items: center;
    cursor: pointer;
-
+  
+   box-shadow: 2px 2px 20px 20px rgb(33, 155, 255);
 }
 
 @media (max-width: 800px) {
@@ -50,70 +51,44 @@ html {
   }
 
 .card {
-    width:100px;
-    height: 100px;
+    width:200px;
+    height: 200px;
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius:10px;
-    border:solid rgb(1, 119, 137) 5px;
-    box-shadow: 4px 4px 6px 2px rgb(28, 28, 28);
+    border:solid rgb(4, 96, 244) 5px;
+    box-shadow: 2px 2px 20px 20px rgb(0, 0, 0);
    
 }
 
-#main {
-    width: 150px;
-    height: 150px;
-}
-
-#main .one {
-    background-color: #0061b1;
-    width: 60%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 5px;
-    text-align: center;
-    border-radius: 10px 0 0 10px;
-}
 
 .one {
     background-color: #0061b1;
     width: 60%;
-    height: 100px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     border-radius: 10px 0 0 10px;
 }
+.one:hover{
 
-
-#main .two {
-    background-color: #0681d2;
-    width: 40%;
-    height: 150px;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 5px;
-    text-align: center;
-    border-radius: 0px 10px 10px 0px;
 }
 
+
 .two {
-    background-color: #008bfc;
+    background-color: #004b89;
     width: 40%;
-    height: 100px;
+    height: 200px;
     margin: 0%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 5px;
+    justify-content: space-around;
+    padding: 15px;
     text-align: center;
     border-radius: 0px 10px 10px 0px;
     font-size:10px;
@@ -122,9 +97,10 @@ html {
 
 .day {
     background-color: #4ea4fa;
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 5px;
     font-weight: bolder;
+    box-shadow: 2px 2px 5px 1px rgb(0, 35, 66);
 }
 
 .date {
@@ -133,24 +109,31 @@ html {
     font-size: 40px;
     border-radius: 10px;
     font-weight: bold;
-    
+    box-shadow: 2px 2px 5px 1px rgb(0, 35, 66);
 }
 
 .year {
-    background-color: #2baaff;
+    background-color: #0099ff;
     border-radius: 5px;
     color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px 1px rgb(1, 31, 58);
     
 }
 
 .month {
-    background-color: #2baaff;
-    border-radius: 4px;
+    background-color: #029aff;
+    border-radius: 4px ;
+    font-size: 15px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px 1px rgb(0, 35, 66);
+   
 }
 
 header {
     position: absolute;
-    top: 0%;
+    top: 5%;
     width: 100%;
     color:rgb(66, 198, 255);
     text-align: center;
